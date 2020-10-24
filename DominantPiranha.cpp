@@ -6,17 +6,17 @@ using namespace std;
 int main()
 {
     int t;
-    //cout<<"Enter test cases ";
+    cout<<"Enter test cases ";
     cin>>t;
     for(int j=0; j<t; j++)
     {
         int n, m=0;
-        //cout<<"Enter size ";
+        cout<<"Enter size ";
         cin>>n;
         vector <int> v;
         for(int i=0; i<n; i++)
         {
-            //cout<<"Enter elements ";
+            cout<<"Enter elements ";
             int x;
             cin>>x;
             v.push_back(x);
@@ -33,6 +33,5 @@ int main()
             id=i+1;
         }
         cout<<id<<endl;
-        
     }
 }

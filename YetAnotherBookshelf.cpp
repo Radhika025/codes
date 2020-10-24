@@ -5,17 +5,17 @@ using namespace std;
 int main()
 {
     int t;
-    //cout<<"Enter test cases ";
+    cout<<"Enter test cases ";
     cin>>t;
     for(int j=0; j<t; j++)
     {
         int n, p, q, c=0;
-        //cout<<"Enter size ";
+        cout<<"Enter size ";
         cin>>n;
         vector <int> v;
         for(int i=0; i<n; i++)
         {
-            //cout<<"Enter element ";
+            cout<<"Enter element ";
             int x;
             cin>>x;
             v.push_back(x);
@@ -43,6 +43,7 @@ int main()
                 c=c+1;
             }
         }
-        cout<<c<<endl;
+        cout<<c;
+        cout<<endl;
     }
 }
