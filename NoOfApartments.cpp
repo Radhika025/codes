@@ -20,17 +20,16 @@ int main()
                     b=y;
                     c=z;
                     break;
-                }
-            }
+                }//closing of if
+            }//closing of for
             if(f==1)
             break;
-        }
+        }//closing of for
         if(f==1)
         break;
-    }
+    }//closing of for
     if(f==0)
     cout<<"-1"<<endl;
     else
     cout<<a<<" "<<b<<" "<<c<<endl;
-    
-}
+}//closing of main
