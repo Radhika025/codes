@@ -13,8 +13,9 @@ int main()
         f[i]=f[i-1]*i;
     }
     long long ans=f[n]/f[n/2]/f[n/2];
-    ans=ans*f[n/2-1];
-    ans=ans*f[n/2-1];
+    ans=ans*f[(n/2)-1];
+    ans=ans*f[(n/2)-1];
     ans=ans/2;
-    cout<<ans<<endl;
+    cout<<ans;
+    cout<<endl;
 }
