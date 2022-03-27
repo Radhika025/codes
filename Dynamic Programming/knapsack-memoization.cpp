@@ -7,7 +7,13 @@ int t[5][11];
 //memset(t, -1, sizeof(t));
 
 //t[n][w], where n = n+1 and w = w+1. As n=4 and w=10, therefore t[5][11]
+
 void initialize()
+{
+    memset(t, -1, sizeof(t));
+}
+
+/*void initialize()
 {
     for(int i=0; i<5; i++)
     {
@@ -15,6 +21,7 @@ void initialize()
             t[i][j] = -1;
     }
 }
+*/
 
 int knapsack(int wt[], int val[], int w, int n)
 {

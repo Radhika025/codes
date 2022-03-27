@@ -5,7 +5,7 @@ int main()
 {
     int wt[] = {1, 3, 4, 5}; //weight of items
     int val[] = {1, 4, 5, 7}; //value of items 
-    int w = 10; //capacity of the bag
+    int w = 15; //capacity of the bag
 
     int n = sizeof(wt)/sizeof(wt[0]);
     
